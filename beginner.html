@@ -1,0 +1,163 @@
+
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>hello coder</title>
+</head>
+
+
+<body>
+	<header>this is where the header  goes &  header is a block level element</header>
+	<nav>this is the link to www.google.com & nav is a block level element</nav>
+	
+	
+	<br>type-1 same page link OR FRAGMENT IDENTIFIER <br>
+	<!-- the link in the same page works with any starting elemnt with an " <element id="name"  > come content </section>   " -->
+	<a href="#footer_last_of_the_page">link to go to the footer</a>    
+
+	<br>type-2 same page link
+	<!-- the second type is      <a name="temporary name of the link" ></a>    go to the footer for explanation-->
+	<a name="this_is_top"><h3>this is top</h3></a>
+
+
+
+
+<p>1.<br>
+	block elements =phrasing elememts ...both inline and block level elements can go inside it and this elements forces itself to be in a new-line
+	<br>
+	inline elements= flow element ....only inline elements can go inside it...this gets along with the current running line
+	<h1>my blog is this  & h1 is block level element</h1>
+	<br>
+	span is a inline element
+	div is a block element
+</p>
+
+
+
+<p>
+2.<br>
+the tags for html are not always contain an opening and closing tag like  <a href=""></a>
+<br>
+sometimes the are just one tag like ...<br>  < b r >  for line break  and <hr>  < h r >  for horizontal row  
+
+</p>
+
+
+
+
+
+<p>3.<br>
+<section>
+	this is section 1 & section is a block level element
+	<article>this is article 1<br>also article is a block level element</article>
+</section>
+<aside>this aside tag is block level and this contains something thats not related to the main content</aside>
+
+
+<ul>3.01<br>
+	<li>path </li>
+	<li>first learn </li>
+	<li>3 courses for front-end developer
+		<ol>
+			<li>html</li>
+			<li>css</li>
+			<li>javascript</li>
+		</ol>
+
+	</li>
+</ul>
+
+<ol>3.02<br>
+	<li> an ordered list hello world</li>
+</ol>
+
+</p>
+
+
+<p>4.<br>
+	<!--html entity references  -->
+we can not use the direct mathematical sign of greater-than or less-than <br>
+instead we use greater-than = &gt;<br>
+less than = &lt;<br>
+ampersand = &amp;
+<br><br>
+don't want any wrap in that line while (i&nbsp;shrink&nbsp;my&nbsp;browser)
+
+</p>
+
+
+<p>5.<br>
+	<!-- entiry reference rules-->
+	the entity references are hexadecimal and decimal numbers with &#__;  <br>
+	the dash contains either english entity or decimal or hexadecimal numbers (starting with 'x')  <br>
+	example &#9775;  <br>
+	</a>
+</p>
+
+
+<p>6.<br>
+	<!--  binding links  -->
+	binding links  are of 2 types 
+	<ol>
+		<li><strong>internal links</strong>-these are the the links whose files are located  in the same directory (with name.html extension ) as the file web-code we are viewing currently</li>
+		<li><strong>external links</strong>-contains links to outside web...usually starts with https:  , www.  </li>
+	</ol>
+	example-<br> 
+
+	6.01.<br>
+	 the  internal links be like <br>
+	<a href="some_file.html" title="currently no such files are allocated to this link">link to another file in same directory</a>   <br>
+
+	<h4><strong>href</strong> stands for <em>hypertext reference</em>  </h4>   
+
+	<div>6.02.....mechanism of the attribute or 'a' tag<br>
+		
+		this tag is both inline and block level element ...means we can use a block level element inside 'a' tag 
+		<a href="www.google.com" title="DON'T CLICK"><div>this whole 'div' element is inside 'a' tag ...means whis whole text is a link to google  </div></a>
+
+	</div>
+
+	<section>6.03.<br>
+		
+		external links-  <a href="http://www.youtube.com" title="tooltip to display youtube link" target="_blank">here goes what  will be displayed on the screen to viewer</a>  <br>
+		the <strong>"target"</strong> attribute is used to prompt open another window by clicking on the link-text
+
+	</section>
+
+	<div>6.04...fragment identifiers or in-page links<br>
+		<a href="#this_is_top" title="take to thee top of the page">go to top of the page</a>
+	</div>
+</p>
+
+
+
+<p>7.  images on the web-page  <br>
+	images are inline elements ......we should always use height and width of a picture <br>
+	<!-- internal image file link -->
+	<img src=" LOGO.PNG" width="200px" height="150" alt="image inside the same directory">
+	<!-- external image file link  -->
+	<img src="some image file link" height="200" width="200">
+</p>
+
+
+
+
+	<footer id="footer_last_of_the_page"><!-- type-1 inpage link creating -->
+ 
+			<a href="#this_is_top">link to go to top of the page</a>		<br>
+
+			&#9821;&#9822;&#9823;this is where the footer goes... & footer is a block level element<br>
+		all copyrights reserved by <strong>Atulananda Panigrahy</strong>
+		<br>
+		to get copyright symbol we use &copy;<br>
+		for registered mark &reg;
+	 </footer>
+
+
+
+
+</body>
+
+</html>
